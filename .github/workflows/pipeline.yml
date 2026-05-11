@@ -40,7 +40,7 @@ jobs:
         with:
           name: test-results
           path: |
-            .pytest_cache/
+            **/.pytest_cache/
           retention-days: 7
 
   build-and-push:
